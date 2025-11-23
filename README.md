@@ -28,6 +28,7 @@ For more details, refer to the [DATA.md](DATA.md).
 ## Scripts
 
 - [parse.py](parse.py): Parses the raw Excel files to generate the Parquet and CSV datasets
+- [enhance.py](enhance.py): Enhances the base Parquet and CSV datasets with additional fields ([thanks to @kdqed](https://github.com/Vonter/bmrcl-ridership-hourly/pull/1))
 
 ## License
 
@@ -53,6 +54,9 @@ Ensure that `python` and the required dependencies in `requirements.txt` are ins
 ```
 # Parse the Excel files
 python parse.py
+
+# Enhance the base files
+python enhance.py
 ```
 
 ## Credits
