@@ -22,6 +22,7 @@ For more details, refer to the [DATA.md](DATA.md).
 
 ## Visualizations
 
+- [Namma Metro Ridership App](https://ridership.bengawalk.com)
 - [How Bangalore Uses The Metro](https://diagramchasing.fun/2025/how-bangalore-uses-the-metro)
 
 ## Scripts
