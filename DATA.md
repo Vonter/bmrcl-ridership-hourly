@@ -42,6 +42,22 @@ Data covers the following periods:
 | Destination Station | string | Destination station name (83 unique stations) |
 | Ridership | int64 | Ridership count (Number of passengers boarded at the origin station and alighted at the destination station during the hour) |
 
+
+### Station pair hourly ridership (enhanced)
+
+| Variable | Type | Description |
+|----------|------|-------------|
+| Date | string | Date when the ridership was recorded (format: YYYY-MM-DD) |
+| Hour | int64 | Hour of the day when the ridership was recorded (0-23) |
+| Origin Station | string | Origin station name (83 unique stations) |
+| Destination Station | string | Destination station name (83 unique stations) |
+| Ridership | int64 | Ridership count (Number of passengers boarded at the origin station and alighted at the destination station during the hour) |
+| Travelled Stations | int64 | No. of stations travelled for this station pair, excluding origin station |
+| Fare Slab | int64 | Fare Slab for this station pair used for calculating the fare |
+| Fare | int64 | Fare for this station pair excluding discounts |
+| Revenue | int64 | Total revenue from this ridership for this station pair |
+
+
 ### Station Names
 
 The original Excel file for station hourly ridership uses old station names instead of current station names. The old station names are mapped to current station names using the [station-names.csv](raw/station-names.csv) file.

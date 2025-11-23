@@ -15,6 +15,8 @@ Explore the dataset:
 * [station-hourly-exits.csv.zip](data/station-hourly-exits.csv.zip?raw=1): Station hourly ridership (exits) as CSV compressed in a Zip file.
 * [stationpair-hourly.parquet](data/stationpair-hourly.parquet?raw=1): Station pair hourly ridership as Parquet file.
 * [stationpair-hourly.csv.zip](data/stationpair-hourly.csv.zip?raw=1): Station pair hourly ridership as CSV compressed in a Zip file.
+* [stationpair-hourly-enhanced.parquet](data/stationpair-hourly-enhanced.parquet?raw=1): Station pair hourly ridership with enriched fields as Parquet file.
+* [stationpair-hourly-enhanced.csv.zip](data/stationpair-hourly-enhanced.csv.zip?raw=1): Station pair hourly ridership with enriched fields as CSV compressed in a Zip file.
 
 For more details, refer to the [DATA.md](DATA.md).
 
